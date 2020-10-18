@@ -30,7 +30,7 @@ function nextImage() {
   }, 1000)
 
   currentImageCounter = (currentImageCounter + 1) % slideshowImages.length
-  slideshowImages[currentImageCounter].style.opacity = 0.4
+  slideshowImages[currentImageCounter].style.opacity = 0.7
   slideshowImages[currentImageCounter].style.zIndex = -1
 }
 
